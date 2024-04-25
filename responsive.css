@@ -1,0 +1,137 @@
+/* Media Styles Start */
+
+.search_mobile {
+    height: 40px;
+    width: 40px;
+    border: none !important;
+    outline: none !important;
+    border-radius: 70px;
+    font-size: 15px;
+    display: none;
+}
+
+
+/* Media Styles End */
+
+@media only screen and (max-width:1079px) {
+    .search-2 {
+        display: none;
+    }
+    .search_mobile {
+        display: initial !important;
+    }
+    .profile_menu {
+        padding-right: 20px !important;
+    }
+    .grid-items {
+        grid-template-columns: 63% 37%;
+    }
+    .content-1 {
+        display: none !important;
+    }
+    .right-bar {
+        overflow-y: scroll !important;
+        overflow-x: hidden;
+    }
+    .content {
+        padding: 30px 40px !important;
+    }
+    .navbar-1 {
+        z-index: 80050000 !important;
+    }
+}
+
+@media only screen and (max-width:869px) {
+    .home_menu {
+        display: none !important;
+    }
+    .right-sidebar {
+        display: none !important;
+    }
+    .grid-items {
+        grid-template-columns: 100%;
+    }
+    .content {
+        padding: 30px 10px !important;
+    }
+}
+
+@media only screen and (max-width:579px) {
+    .activity_div {
+        display: none !important;
+    }
+    .grid-blog {
+        padding-right: 20px;
+    }
+    .m_s_mobile {
+        padding-left: 20px !important;
+    }
+    .content {
+        padding: 30px 0px !important;
+        margin: 0px !important;
+    }
+    .profile_menu {
+        padding-right: 0px !important;
+    }
+    .people_next_btn {
+        top: -150px;
+        right: -20px;
+    }
+    .add-users .add-fred {
+        border: none !important;
+        background-color: rgba(224, 224, 224, 0.514);
+        height: 30px;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 800;
+        border-radius: 3px;
+        margin-bottom: -40px;
+        /* margin: 0px 5px; */
+    }
+}
+
+@media only screen and (max-width:457px) {
+    .m_s_mobile {
+        padding-left: 30px !important;
+    }
+    /* .blog-post {
+        padding: 20px 20px !important;
+        margin: 15px 12px !important;
+    } */
+    .bg-image {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:447px) {
+    .people_next_btn {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: -200px !important;
+        right: 18px;
+    }
+    .people_slider {
+        padding: 0px 30px;
+    }
+    .m_s_mobile p {
+        font-size: 10px !important;
+    }
+    .m_s_mobile a {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .people_slider {
+        padding: 0px 10px !important;
+    }
+    .people_next_btn {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: -200px !important;
+        right: -10px;
+    }
+}

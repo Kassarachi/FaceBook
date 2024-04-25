@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-1 d-flex justify-content-between align-items-center shadow position-fixed sticky px-3">
+            <div class="d-flex align-items-center">
+                <div class="face-1 m-2 ">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                </div>
+                <button class="search_mobile">
+                    <i class="bi bi-search"></i>
+                </button>
+                <div class="search-2">
+                    <button><i class="bi bi-search search-bt"></i><input class="search-1" type="text" placeholder="Search Facebook" name="" id=""></button>
+                </div>
+            </div>
+            <div class="d-flex align-items-center home_menu">
+                <div class="m-2  button-0">
+                    <button class="tooltip_menu" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Home"><a href=""><i class="bi bi-house-door-fill"></i></a></button>
+                </div>
+                <div class="m-2 button-1">
+                    <button class="tooltip_menu_1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Video"><a href=""><i class="bi bi-play-btn text-dark"></i></a></button>
+                </div>
+                <div class="m-2 button-1">
+                    <button class="tooltip_menu_2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="MarketPlace"><a href=""><i class="bi bi-shop-window text-dark"></i></a></button>
+                </div>
+                <div class="m-2 button-1">
+                    <button class="tooltip_menu_3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Groups"><a href=""><i class="bi bi-person-circle text-dark"></i></a></button>
+                </div>
+            </div>
+            <div class="d-flex align-items-center pe-2 profile_menu">
+                <div class="m-1 button-2">
+                    <button><a href=""><i class="bi bi-grid-3x3-gap-fill text-dark"></i></a></button>
+                </div>
+                <div class="m-1 button-2">
+                    <button><a href=""><i class="bi bi-messenger text-dark"></i></a></button>
+                </div>
+                <div class="m-1 button-2">
+                    <button class=""><a href=""><i class="bi bi-bell-fill text-dark"></i></a></button>
+                </div>
+                <div class="m-1 button-3">
+                    <button><a href=""><img src="/assets/images/user.jpg" width="40px" height="40px" alt=""></a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------------------------------------>
+
+    <div class="main-container  bg-body-tertiary">
+        <div class="grid-items">
+            <!-------- sidebar-1 ---------->
+            <div class="list-style-none m-4 content-1">
+                <div id="sidebar">
+                    <div class=" button-4">
+                        <button><a href=""><img src="/assets/images/user.jpg" width="30px" height="30px" alt=""></a><span class="px-2 fw-bolder">Kc Joe</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button class=""><a href=""><i class="bi bi-people-fill px-1 fs-5"></i></a><span class="px-2 fw-bolder">Friends</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-clock px-1 fs-5"></i></a><span class="px-2 fw-bolder text-dark ">Memories</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-bookmark-fill px-1 fs-5 bookmark-1"></i></a><span class="px-2 fw-bolder">Saved</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-person-circle px-1 fs-5"></i></a><span class="px-2 fw-bolder">Groups</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-caret-right-square-fill  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Videos</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-shop-window  px-2 fs-5"></i></a><span class="px-2 fw-bolder">Marketplace</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-card-heading text-danger px-1 fs-5"></i></a><span class="px-2 fw-bolder">Feeds</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-calendar2-event-fill  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Events</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-bar-chart-fill  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Ads Manager</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-suit-heart-fill text-danger px-1 fs-5"></i></a><span class="px-2 fw-bolder">Fundraisers</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-cloud-moon-fill  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Climate Science Center</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-columns  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Gaming Video</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-messenger bookmark-1 px-1 fs-5"></i></a><span class="px-2 fw-bolder">Messenger</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-messenger  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Messenger Kids</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-credit-card-2-front-fill text-dark  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Orders and Payments</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-flag-fill text-danger px-1 fs-5"></i></a><span class="px-2 fw-bolder">Pages</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-dpad-fill  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Play Games</span></button>
+                    </div>
+                    <div class="button-4 pt-1 pb-1">
+                        <button><a href=""><i class="bi bi-card-heading  px-1 fs-5"></i></a><span class="px-2 fw-bolder">Recent ad activity</span></button>
+                    </div>
+
+                    <footer>
+                        <div class="m-2 pt-2 footer-1">
+                            <a href="">
+                                <p class="text-dark"><span class="underline-1">Privacy</span> · <span class="underline-1">Terms</span> · <span class="underline-1">Advertising</span> · <span class="underline-1">Ad Choices</span><br> ·
+                                    <span class="underline-1">Cookies</span> · <span class="text-dark">More</span> Meta &copy; 2024</p>
+                            </a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!-----x--- Sidebar ---x------>
+
+            <!-------- main content --------->
+            <div class="content">
+                <!-----Add story start---->
+                <div class="stories mt-3">
+                    <div class="owl-carousel stories_slider owl-theme">
+                        <div>
+                            <div class="card shadow">
+                                <a href=""><img src="/assets/images/user.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-bo">
+                                    <div class="d-flex justify-content-center add_btn_container">
+                                        <button class="add_friend_btn"><i class="bi bi-plus"></i> </button>
+                                    </div>
+                                    <button class="create_story_btn">Create Story</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story_image_container">
+                                <img src="/assets/images/IMG-20240329-WA0001.jpg" width="100%" class="image-3" alt="">
+                                <p class="username mt-4 pt-4"><a href="#">Queen&nbsp;Dominique</a></p>
+                                <div class="user_profile">
+                                    <img src="assets/images/IMG-20240329-WA0001.jpg" class="mt-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story_image_container">
+                                <img src="/assets/images/IMG-20240329-WA0002.jpg" width="100%" class="image-3" alt="">
+                                <p class="username mt-4 pt-4"><a href="#">Native Men</a></p>
+                                <div class="user_profile">
+                                    <img src="assets/images/IMG-20240329-WA0002.jpg" class="mt-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story_image_container">
+                                <img src="/assets/images/IMG-20240329-WA0003.jpg" width="100%" alt="" class="image-3">
+                                <p class="username mt-4 pt-4"><a href="#">Jessica Ibe</a></p>
+                                <div class="user_profile">
+                                    <img src="assets/images/IMG-20240329-WA0003.jpg" class="mt-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story_image_container">
+                                <img src="/assets/images/IMG-20240329-WA0004.jpg" width="100%" alt="" class="image-3">
+                                <p class="username mt-4 pt-4"><a href="#">Innocent N</a></p>
+                                <div class="user_profile">
+                                    <img src="assets/images/IMG-20240329-WA0004.jpg" class="mt-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story_image_container">
+                                <img src="/assets/images/image-user4.jpg" width="100%" alt="" class="image-3">
+                                <p class="username mt-4 pt-4"><a href="#">Precious&nbsp;Emeka</a></p>
+                                <div class="user_profile">
+                                    <img src="assets/images/image-user4.jpg" class="mt-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story_image_container">
+                                <img src="/assets/images/image-user3.jpg" width="100%" alt="" class="image-3">
+                                <p class="username mt-4 pt-4"><a href="#">Ruth Addo</a></p>
+                                <div class="user_profile">
+                                    <img src="assets/images/image-user3.jpg" class="mt-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----s---Other Stories end-->
+                    <!-- Next Button start -->
+                    <div class="d-flex justify-content-end next_btn_container">
+                        <button class="next_btn_stories"><i class="bi bi-chevron-right"></i></button>
+                    </div>
+                    <!-- Next Button end -->
+                </div>
+
+                <div class="container">
+                    <div class="bg-image shadow">
+                        <div class="grid  m-3 pt-3">
+                            <a href=""><img src="/assets/images/user.jpg" class="image-profile-2" height="40px" width="40px" alt=""></a>
+                            <div class="ms-3">
+                                <input type="text" placeholder="What's on your mind, KC?" name="" id="">
+                            </div>
+                        </div>
+                        <hr class="line">
+                        <div class="d-flex justify-content-around align-items-center photo-icon">
+                            <div><button><a href=""  class="d-flex align-items-center"><i class="bi bi-camera-video-fill text-danger fs-5 m-1"></i><span class="icons-items text-dark">Live video</a></button></div>
+                            <div><button><a href=""  class="d-flex align-items-center"><i class="bi bi-images text-success m-1 fs-5"></i><span class="icons-items text-dark">photo/video</span></a></button></div>
+                            <div><button><a href=""  class="d-flex align-items-center activity_div"><i class="bi bi-emoji-laughing text-warning fs-5 m-1"></i><span class="icons-items text-dark">feeling/activity</span></a></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="align-items-center bg-white blog-post m-4 pt-4">
+                        <div class="grid-blog">
+                            <a href=""><img src="/assets/images/happy-smiley.webp" width="40px" height="40px" alt=""></a>
+                            <div class="m_s_mobile">
+                                <a href=""><span class="text-dark">FAI the Publicist .</span>Follow</a>
+                                <p><a href="" class="text-dark">12h .</a> <i class="bi bi-globe-asia-australia"></i></p>
+                            </div>
+                            <div class="d-flex blog-items">
+                                <div class="px-1">
+                                    <a href="" class="blog-dots"><i class="bi bi-three-dots fs-2 text-dark"></i></a>
+                                </div>
+                                <div class="p_mobile">
+                                    <a href="" class="blog-dots"><i class="bi bi-x fs-2 text-dark"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <h6>Rema and Shallipopi walking hàlf náked in Benin 😳</h6>
+
+                            <h6>Buju can't try this one because six packs are still very far from him 😢</h6>
+                        </div>
+                        <div class="align-items-center blog-picture">
+                            <a href=""><img src="/assets/images/rema.jpg" width="100%" alt=""></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center blog-icon mt-2">
+                            <div>
+                                <a href="" class="blog-likes"><i class="bi bi-hand-thumbs-up-fill blue-thumb"></i> <i class="bi bi-suit-heart-fill red-heart"></i> <span class="text-dark">27.7k</span></a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">Comments 13.5k</a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">Shared 3.1k</a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark"> 183.7k Views</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around align-content-center blog-icon">
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-hand-thumbs-up fs-5 text-dark"></i> <span class="text-dark">Like</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-chat fs-5 text-dark"></i> <span class="text-dark">Comment</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-whatsapp text-dark"></i> <span class="text-dark">Send</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-reply fs-5 text-dark"></i> <span class="text-dark">Share</span></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="align-items-center bg-white blog-post-2">
+                        <div class="grid-blog">
+                            <a href="" class="cape-post"><img src="/assets/images/cape-profile.jpg" width="40px" height="40px" alt=""></a>
+                            <div class="m_s_mobile">
+                                <a href=""><span class="text-dark patrick-1">Cape Verde - Beautiful People Group</a>
+                                <p><a href="" class="text-dark"><span class="patrick">Patrick Rodrigues. 34m .</span></a> <i class="bi bi-globe-asia-australia"></i></p>
+                            </div>
+                            <div class="d-flex blog-items">
+                                <div class="px-1">
+                                    <a href="" class="blog-dots"><i class="bi bi-three-dots fs-2 text-dark"></i></a>
+                                </div>
+                                <div class="p_mobile">
+                                    <a href="" class="blog-dots"><i class="bi bi-x fs-2 text-dark"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mb-3 max-width">
+                            <p>🌟 Happy Easter to our cherished CVBP family across the globe! 🌍✨ Today, as we celebrate renewal and hope, we’re reminded of the incredible journey we’re on together. From the vibrant shores of Cape Verde to every corner where
+                                our community thrives, boundless possibilities, and the enduring spirit that connects us all. 🌱🕊️</p>
+
+                            <p class="pt-2">Let this Easter be a beacon of light, guiding us towards greater unity, love, and understanding. May... <a href="" class="text-dark">See more</a></p>
+                        </div>
+                        <div class="align-items-center blog-picture">
+                            <a href=""><img src="/assets/images/cape.jpg" width="100%"></a>
+                        </div>
+                        <div class="mt-2">
+                            <div>
+                                <a href="" class="blog-likes"><i class="bi bi-hand-thumbs-up-fill blue-thumb"></i> <span class="text-dark">27.7k</span></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around align-content-center blog-icon">
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-hand-thumbs-up fs-5 text-dark"></i> <span class="text-dark">Like</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-chat fs-5 text-dark"></i> <span class="text-dark">Comment</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-whatsapp text-dark"></i> <span class="text-dark">Send</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-reply fs-5 text-dark"></i> <span class="text-dark">Share</span></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="align-items-center bg-white blog-post">
+                        <div class="grid-blog">
+                            <a href="" class="araimo-2"><img src="/assets/images/aro-profile.jpg" width="40px" height="40px" alt=""></a>
+                            <div class="m_s_mobile">
+                                <a href=""><span class="text-dark">Oraimo eshop GH </span>Follow</a>
+                                <p><a href="" class="text-dark">sponsored</a> <i class="bi bi-globe-asia-australia"></i></p>
+                            </div>
+                            <div class="d-flex blog-items">
+                                <div class="px-1">
+                                    <a href="" class="blog-dots"><i class="bi bi-three-dots fs-2 text-dark"></i></a>
+                                </div>
+                                <div class="p_mobile">
+                                    <a href="" class="blog-dots"><i class="bi bi-x fs-2 text-dark"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <p><i class="bi bi-fire text-warning"></i> Professional Powerful & Long 180min... <a href="" class="text-dark">See more</a></p>
+                        </div>
+                        <div class="align-items-center blog-picture">
+                            <a href=""><img src="/assets/images/oraim-image.jpg" width="100%" alt=""></a>
+                        </div>
+                        <div class="d-flex justify-content-between bg-body-tertiary araimo-post">
+                            <div>
+                                <a href="" class="text-dark">gh.oraimo.com</a>
+                                <p><i class="bi bi-fire text-warning"></i> New Launch 20% OFF!</p>
+                            </div>
+                            <div class="m-3">
+                                <button><a href="" class="text-dark">Shop&nbsp;now</a></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center blog-icon mt-2">
+                            <div>
+                                <a href="" class="blog-likes"><i class="bi bi-hand-thumbs-up-fill blue-thumb"></i> <span class="text-dark"> 7k</span></a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">Comments 15k</a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">Shared 3k</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around align-content-center blog-icon">
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-hand-thumbs-up fs-5 text-dark"></i> <span class="text-dark">Like</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-chat fs-5 text-dark"></i> <span class="text-dark">Comment</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-reply fs-5 text-dark"></i> <span class="text-dark">Share</span></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="bg-white profile-users">
+                        <div>
+                            <p>People You May Know</p>
+
+                            <div>
+                                <div class="owl-carousel people_slider owl-theme">
+                                    <div>
+                                        <div class="card">
+                                            <a href=""><img src="/assets/images/image-user1.jpg" class="card-img-top" alt="..."></a>
+                                            <div class="card-body bg-body-light">
+                                                <h6>kwesi Paul</h6>
+                                                <div class="add-users mt-3 mb-1">
+                                                    <button class="add-fred"><a href="" class="text-secondry"><i class="bi bi-person-plus-fill text-secondry"></i>&nbsp;Add&nbsp;friend</a></button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="card">
+                                            <a href=""><img src="/assets/images/face1.jpg" class="card-img-top" alt="..."></a>
+                                            <div class="card-body bg-body-light">
+                                                <h6>Joy Charles</h6>
+                                                <div class="add-users mt-3">
+                                                    <button class="add-fred"><a href="" class="text-secondry"><i class="bi bi-person-plus-fill text-secondry"></i>&nbsp;Add&nbsp;friend</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="card">
+                                            <a href=""><img src="/assets/images/face2.jpg" class="card-img-top" alt="..."></a>
+                                            <div class="card-body bg-body-light">
+                                                <h6>Ogoo Ibe</h6>
+                                                <div class="add-users mt-3">
+                                                    <button class="add-fred"><a href="" class="text-secondry"><i class="bi bi-person-plus-fill text-secondry"></i>&nbsp;Add&nbsp;friend</a></button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="card">
+                                            <a href=""><img src="/assets/images/face3.jpg" class="card-img-top" alt="..."></a>
+                                            <div class="card-body bg-body-light">
+                                                <h6>Gloria James</h6>
+                                                <div class="add-users mt-3">
+                                                    <button class="add-fred"><a href="" class="text-secondry"><i class="bi bi-person-plus-fill text-secondry"></i>&nbsp;Add&nbsp;friend</a></button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="people_next_btn">
+                                    <button class="next_btn"><i class="bi bi-chevron-right"></i></button>
+                                </div>
+                            </div>
+                            <P class="mt-0 text-center all-items">See all</P>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="align-items-center bg-white blog-post-2">
+                        <div class="grid-blog">
+                            <a href=""><img src="/assets/images/star.jpg" width="40px" height="40px" alt=""></a>
+                            <div class="m_s_mobile">
+                                <a href=""><span class="text-dark">Rich Hommie Quon . <span>Follow</span></a>
+                                <p><a href="" class="text-dark">3d .</a> <i class="bi bi-globe-asia-australia"></i></p>
+                            </div>
+                            <div class="d-flex blog-items">
+                                <div class="px-1">
+                                    <a href="" class="blog-dots"><i class="bi bi-three-dots fs-2 text-dark"></i></a>
+                                </div>
+                                <div class="p_mobile">
+                                    <a href="" class="blog-dots"><i class="bi bi-x fs-2 text-dark"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mb-3 max-width">
+                            <p class="pt-2">"If i could turn back time, I will personally pay that girl to leak our s_x tape. That tape changed my life... <a href="" class="text-dark">See more</a></p>
+                        </div>
+                        <div class="align-items-center blog-picture">
+                            <a href=""><img src="/assets/images/star2.jpg" width="100%"></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center blog-icon mt-2">
+                            <div>
+                                <a href="" class="blog-likes"><i class="bi bi-hand-thumbs-up-fill blue-thumb"></i> <i class="bi bi-emoji-laughing-fill text-warning"></i> <span class="text-dark">1.1k</span></a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">Comments 106</a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">8 Shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around align-content-center blog-icon">
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-hand-thumbs-up fs-5 text-dark"></i> <span class="text-dark">Like</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-chat fs-5 text-dark"></i> <span class="text-dark">Comment</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-whatsapp text-dark"></i> <span class="text-dark">Send</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-reply fs-5 text-dark"></i> <span class="text-dark">Share</span></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="align-items-center bg-white blog-post-2">
+                        <div class="grid-blog">
+                            <a href=""><img src="/assets/images/house2.jpg" width="40px" height="40px" alt=""></a>
+                            <div class="m_s_mobile">
+                                <a href=""><span class="text-dark">Crazyst Luxury Homes . <span>Follow</span></a>
+                                <p><a href="" class="text-dark">2d .</a> <i class="bi bi-globe-asia-australia"></i></p>
+                            </div>
+                            <div class="d-flex blog-items">
+                                <div class="px-1">
+                                    <a href="" class="blog-dots"><i class="bi bi-three-dots fs-2 text-dark"></i></a>
+                                </div>
+                                <div class="p_mobile">
+                                    <a href="" class="blog-dots"><i class="bi bi-x fs-2 text-dark"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mb-3 max-width">
+                            <p class="pt-2">Indian billionaire Vijay Mallya owns a white House replica mansion that sits a top a 34-story skyscraper... <a href="" class="text-dark">See more</a></p>
+                        </div>
+                        <div class="align-items-center blog-picture">
+                            <a href=""><img src="/assets/images/house.jpg" width="100%"></a>
+                        </div>
+                        <div class="d-flex justify-content-around align-content-center blog-icon mt-2">
+                            <div>
+                                <a href="" class="blog-likes"><i class="bi bi-hand-thumbs-up-fill blue-thumb"></i> <span class="text-dark">25k</span></a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">848 Comments</a>
+                            </div>
+                            <div>
+                                <a href="" class="blog-likes text-dark">685 Shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-around align-content-center blog-icon">
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-hand-thumbs-up fs-5 text-dark"></i> <span class="text-dark">Like</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-chat fs-5 text-dark"></i> <span class="text-dark">Comment</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-whatsapp text-dark"></i> <span class="text-dark">Send</span></a></button>
+                            </div>
+                            <div class="blog-chat">
+                                <button><a href=""><i class="bi bi-reply fs-5 text-dark"></i> <span class="text-dark">Share</span></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-----x-- main content ----x---->
+
+            <!------- rightbar -------->
+            <div class="right-sidebar pe-5  me-2">
+                <div class="right-bar sticky-top bg-light">
+                    <h5 class="m-3 px-1">sponsored</h5>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="image-text mx-3 d-flex p-2">
+                                <div class="col-lg-4 me-0">
+                                    <a href="" class="px-2"><img src="/assets/images/image-right.png" width="80px" height="80px" alt=""></a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="m-2 mt-3">
+                                        <a href="">
+                                            <h6 class="text-dark">Become a driver</h6>
+                                            <p class="text-dark">bolt.eu</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="dot-icon ">
+                                        <a href=""><i class="bi bi-three-dots icon-1 text-dark fs-3"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-text-3 mx-3 d-flex p-2">
+                                <div class="col-lg-4 me-0">
+                                    <a href="" class="px-2"><img src="/assets/images/image right2.jpeg" width="80px" height="80px" alt=""></a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mt-2 px-2">
+                                        <a href="">
+                                            <h6 class="text-dark font-size">Write&nbsp;clear,&nbsp;Mistake-&nbsp;<br>&nbsp;Free&nbsp;essays&nbsp;<br>and&nbsp;report</h6>
+                                            <p class="text-dark font-size1">grammarly.com</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="dot-icon">
+                                        <a href=""><i class="bi bi-three-dots icon-1 text-dark fs-3"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="px-5 m-3 lines-9">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="friend-3">
+                                    <h5>Friend&nbsp;requests</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+
+                            </div>
+                            <div class="col-lg-4 friend-2">
+                                <a href="">See all</a>
+                            </div>
+                        </div>
+                        <div class="row px-1">
+                            <div class="d-flex request-items mt-3">
+                                <div class="col-lg-3">
+                                    <div class="px-1 mt-3">
+                                        <a href=""><img src="/assets/images/image-user3.jpg" height="40px" width="40px" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 button-items">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mt-2">
+                                            <a href="" class="text-dark">Uzochukwu&nbsp;Francis</a>
+                                        </div>
+                                        <div class=" figure-1 px-4">
+                                            <a href="" class="text-dark d-flex align-items-center">19h<i class="bi bi-dot fs-3 text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href=""><img src="/assets/images/face1.jpg" height="20px" width="20px" alt=""></a>
+                                        <a href=""><img src="/assets/images/face3.jpg" height="20px" width="20px" alt="" class="left-img"></a>
+                                        <div class="px-2">
+                                            <p>7&nbsp;mutual&nbsp;friends</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div>
+                                            <button class="button-6">Confirm</button>
+                                        </div>
+                                        <div class="px-3">
+                                            <button class="button-7">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="px-2 lines-9">
+
+                        <div class="row px-1">
+                            <div class="col-lg-4">
+                                <h5>Contacts</h5>
+                            </div>
+                            <div class="col-lg-3">
+
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="d-flex">
+                                    <a href="" class="mt-2 text-dark"><i class="bi bi-search"></i></a>
+                                    <div class="px-4">
+                                        <a href=""><i class="bi bi-three-dots text-dark fs-4"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-list">
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/face1.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Rita Ifunanya</h6>
+                                </div>
+                            </div>
+
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/face2.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Ogoo Ibe</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/face3.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Gloria James</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/IMG-20240329-WA0001.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Queen Dominique</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/IMG-20240329-WA0002.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Native Men</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/IMG-20240329-WA0003.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Jessica Ibe</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/IMG-20240329-WA0004.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Innocent N</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/image-user1.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Kwesi Paul</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/image-user2.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Efe Handsome</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class="chat-images mt-1">
+                                    <a href=""><img src="/assets/images/image-user3.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Ruth Addo</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class=" chat-images mt-1">
+                                    <a href=""><img src="/assets/images/image-user4.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Precious Emeka</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex px-1">
+                                <div class=" chat-images mt-1">
+                                    <a href=""><img src="/assets/images/user.jpg" width="30px" height="30px" alt=""></a>
+                                </div>
+                                <i class="bi bi-dot fs-1 dot-2 text-success"></i>
+                                <div class="mt-2 px-1">
+                                    <h6 class="fw-bold">Kc Joe</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----x---rightbar ----x---->
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
